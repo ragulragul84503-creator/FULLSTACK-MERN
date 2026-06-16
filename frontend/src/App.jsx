@@ -2,6 +2,7 @@ import Counter from './components/Counter'
 import Effect from './components/Effect'
 import Navbar from './components/Navbar'
 import Parent from './components/Parent'
+import Todo  from './components/Todo'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
@@ -19,6 +20,7 @@ const App = ()=>{
           <Route path='/Parent' element={<Parent/>}></Route>
           <Route path='/useState' element={<Counter/>}></Route>
           <Route path='/useEffect' element={<Effect/>}></Route>
+          <Route path='/todo' element={<Todo/>}/>
         </Routes>
         </>
   )
